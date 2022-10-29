@@ -1,0 +1,111 @@
+body
+{
+	/*background-image: linear-gradient(to right top, #ff0059, #ffb200, #ff0059, #ffb200, #ff0059);*/
+	background-image: url("../images/background.png");
+	background-attachment:fixed;
+}
+
+.heading
+{
+	font-family: "Agency FB";
+	font-size: 25px;
+	text-decoration: underline overline;
+	text-decoration-color: #2daec2;
+}
+
+::placeholder,input[type="date"],span,input[type="radio"]
+{
+	color: #106673;
+}
+
+input[type="radio"]
+{
+	width: 10%;
+	color: #106673;
+    height: 1em;
+}
+
+input[type="submit"]
+{
+	width: 650px;  
+	height: 3em;
+	background-color: #2daec2;
+	border: 2px outset darkgreen;
+}
+
+input[type="reset"]
+{
+	width: 10em;  
+	height: 3em;
+	background-color: yellow;
+	border: 2px outset red;
+}
+
+input,select,span
+{
+	padding: 8px 10px;
+	border: none;
+	opacity: 0.8;
+	font-size: 15px;
+	font-family: "Calibri";
+	display: inline-block;
+}
+
+span:hover
+{
+	background-color: #cef2f0;
+}
+
+input,select
+{
+	border-bottom: 1px solid blue;
+}
+
+select
+{
+	width: 150px;
+	color: black;
+}
+
+label
+{
+	color:black;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Calibri;
+}
+
+.line_space
+{
+	line-height: 3px;
+}
+
+.gender
+{
+	border: 1px solid white;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+.submit
+{
+	opacity: 1px;
+	height: 50px;
+	width: 150px;
+	opacity: 1;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+input[type="submit"]:hover
+{
+	background-color: #26bf11;
+	border: 3px outset red;
+}
+
+input[type="reset"]:hover
+{
+	background-color: red;
+	border: 3px outset blue;
+}
